@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.image-gallery{
+    background-color: aqua;
+    border: solid black 2px;
+}
+.Header{
+    text-align: center;
+    border-bottom: solid black 2px;
+}
+.container__1{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    gap: 10px;
+}
+.container__1 img{
+    border: solid black 2px;
+    width: 50px;
+    flex-basis: 20%;
+    flex-grow:1;
+}
